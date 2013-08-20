@@ -24,7 +24,7 @@ $(document).ready(function(){
 
 
 	// Wrap text in h3 with a span element to underline
-	$('h3, h4').wrapInner('<span class="underline" />');
+	//$('h3, h4').wrapInner('<span class="underline" />');
 
 	
 	$('.box-skill:even').addClass('even');
