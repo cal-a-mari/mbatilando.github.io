@@ -1,4 +1,4 @@
 maribatilando.com
 =================
 
-My personal website
+This is my personal website built using the Foundation Grid Framework, Scrollspy, Font Awesome
