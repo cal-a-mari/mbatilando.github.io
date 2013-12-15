@@ -1,0 +1,273 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'generator-backbone' ]
+2 info using npm@1.3.11
+3 info using node@v0.10.21
+4 verbose cache add [ 'generator-backbone', null ]
+5 verbose cache add name=undefined spec="generator-backbone" args=["generator-backbone",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'generator-backbone',
+6 verbose parsed url   path: 'generator-backbone',
+6 verbose parsed url   href: 'generator-backbone' }
+7 silly lockFile 7c018edb-generator-backbone generator-backbone
+8 verbose lock generator-backbone /Users/Mari/.npm/7c018edb-generator-backbone.lock
+9 silly lockFile 7c018edb-generator-backbone generator-backbone
+10 silly lockFile 7c018edb-generator-backbone generator-backbone
+11 verbose addNamed [ 'generator-backbone', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile fd4cb93f-generator-backbone generator-backbone@
+14 verbose lock generator-backbone@ /Users/Mari/.npm/fd4cb93f-generator-backbone.lock
+15 silly addNameRange { name: 'generator-backbone', range: '*', hasData: false }
+16 verbose url raw generator-backbone
+17 verbose url resolving [ 'https://registry.npmjs.org/', './generator-backbone' ]
+18 verbose url resolved https://registry.npmjs.org/generator-backbone
+19 info trying registry request attempt 1 at 15:38:32
+20 http GET https://registry.npmjs.org/generator-backbone
+21 http 200 https://registry.npmjs.org/generator-backbone
+22 silly registry.get cb [ 200,
+22 silly registry.get   { vary: 'Accept',
+22 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R15B03)',
+22 silly registry.get     etag: '"DB46HXT3LGCNTZFUYA0CPZ4VJ"',
+22 silly registry.get     date: 'Sun, 15 Dec 2013 23:38:32 GMT',
+22 silly registry.get     'content-type': 'application/json',
+22 silly registry.get     'content-length': '53724' } ]
+23 silly addNameRange number 2 { name: 'generator-backbone', range: '*', hasData: true }
+24 silly addNameRange versions [ 'generator-backbone',
+24 silly addNameRange   [ '0.1.0',
+24 silly addNameRange     '0.1.1',
+24 silly addNameRange     '0.1.2',
+24 silly addNameRange     '0.1.3',
+24 silly addNameRange     '0.1.4',
+24 silly addNameRange     '0.1.5',
+24 silly addNameRange     '0.1.6',
+24 silly addNameRange     '0.1.7',
+24 silly addNameRange     '0.1.8',
+24 silly addNameRange     '0.1.9',
+24 silly addNameRange     '0.2.0',
+24 silly addNameRange     '0.2.1',
+24 silly addNameRange     '0.2.2' ] ]
+25 verbose addNamed [ 'generator-backbone', '0.2.2' ]
+26 verbose addNamed [ '0.2.2', '0.2.2' ]
+27 silly lockFile 8595b60c-generator-backbone-0-2-2 generator-backbone@0.2.2
+28 verbose lock generator-backbone@0.2.2 /Users/Mari/.npm/8595b60c-generator-backbone-0-2-2.lock
+29 silly lockFile b870e03f-one-generator-backbone-0-2-2-tgz https://registry.npmjs.org/generator-backbone/-/generator-backbone-0.2.2.tgz
+30 verbose lock https://registry.npmjs.org/generator-backbone/-/generator-backbone-0.2.2.tgz /Users/Mari/.npm/b870e03f-one-generator-backbone-0-2-2-tgz.lock
+31 verbose addRemoteTarball [ 'https://registry.npmjs.org/generator-backbone/-/generator-backbone-0.2.2.tgz',
+31 verbose addRemoteTarball   'ec9026acd60a0a1415afaa5b82ee4577dbb55406' ]
+32 info retry fetch attempt 1 at 15:38:33
+33 verbose fetch to= /var/folders/hb/vx_qdny15dsfgc45hpscx9sh0000gn/T/npm-6456-EPDCG38Y/1387150713063-0.25431290874257684/tmp.tgz
+34 http GET https://registry.npmjs.org/generator-backbone/-/generator-backbone-0.2.2.tgz
+35 http 200 https://registry.npmjs.org/generator-backbone/-/generator-backbone-0.2.2.tgz
+36 verbose tar unpack /var/folders/hb/vx_qdny15dsfgc45hpscx9sh0000gn/T/npm-6456-EPDCG38Y/1387150713063-0.25431290874257684/tmp.tgz
+37 silly lockFile 64466c65-3063-0-25431290874257684-package tar:///var/folders/hb/vx_qdny15dsfgc45hpscx9sh0000gn/T/npm-6456-EPDCG38Y/1387150713063-0.25431290874257684/package
+38 verbose lock tar:///var/folders/hb/vx_qdny15dsfgc45hpscx9sh0000gn/T/npm-6456-EPDCG38Y/1387150713063-0.25431290874257684/package /Users/Mari/.npm/64466c65-3063-0-25431290874257684-package.lock
+39 silly lockFile 8ff02352-3063-0-25431290874257684-tmp-tgz tar:///var/folders/hb/vx_qdny15dsfgc45hpscx9sh0000gn/T/npm-6456-EPDCG38Y/1387150713063-0.25431290874257684/tmp.tgz
+40 verbose lock tar:///var/folders/hb/vx_qdny15dsfgc45hpscx9sh0000gn/T/npm-6456-EPDCG38Y/1387150713063-0.25431290874257684/tmp.tgz /Users/Mari/.npm/8ff02352-3063-0-25431290874257684-tmp-tgz.lock
+41 silly gunzTarPerm modes [ '755', '644' ]
+42 silly gunzTarPerm extractEntry package.json
+43 silly gunzTarPerm extractEntry script-base.js
+44 silly gunzTarPerm extractEntry util.js
+45 silly gunzTarPerm extractEntry readme.md
+46 silly gunzTarPerm extractEntry model/index.js
+47 silly gunzTarPerm extractEntry CHANGELOG
+48 silly gunzTarPerm extractEntry all/index.js
+49 silly gunzTarPerm extractEntry router/index.js
+50 silly gunzTarPerm extractEntry app/index.js
+51 silly gunzTarPerm extractEntry app/templates/Gruntfile.js
+52 silly gunzTarPerm extractEntry app/templates/main.scss
+53 silly gunzTarPerm extractEntry app/templates/_package.json
+54 silly gunzTarPerm extractEntry app/templates/app/404.html
+55 silly gunzTarPerm extractEntry app/templates/app/favicon.ico
+56 silly gunzTarPerm extractEntry app/templates/app/htaccess
+57 silly gunzTarPerm extractEntry app/templates/app/robots.txt
+58 silly gunzTarPerm extractEntry app/templates/bowerrc
+59 silly gunzTarPerm extractEntry app/templates/_bower.json
+60 silly gunzTarPerm extractEntry app/templates/gitattributes
+61 silly gunzTarPerm extractEntry app/templates/gitignore
+62 silly gunzTarPerm extractEntry app/templates/index.html
+63 silly gunzTarPerm extractEntry app/templates/jshintrc
+64 silly gunzTarPerm extractEntry app/templates/editorconfig
+65 silly gunzTarPerm extractEntry templates/app.js
+66 silly gunzTarPerm extractEntry templates/collection.js
+67 silly gunzTarPerm extractEntry templates/model.js
+68 silly gunzTarPerm extractEntry templates/router.js
+69 silly gunzTarPerm extractEntry templates/view.js
+70 silly gunzTarPerm extractEntry templates/coffeescript/app.coffee
+71 silly gunzTarPerm extractEntry templates/coffeescript/collection.coffee
+72 silly gunzTarPerm extractEntry templates/coffeescript/model.coffee
+73 silly gunzTarPerm extractEntry templates/coffeescript/requirejs/collection.coffee
+74 silly gunzTarPerm extractEntry templates/coffeescript/requirejs/main.coffee
+75 silly gunzTarPerm extractEntry templates/coffeescript/requirejs/model.coffee
+76 silly gunzTarPerm extractEntry templates/coffeescript/requirejs/router.coffee
+77 silly gunzTarPerm extractEntry templates/coffeescript/requirejs/view.coffee
+78 silly gunzTarPerm extractEntry templates/coffeescript/router.coffee
+79 silly gunzTarPerm extractEntry templates/coffeescript/view.coffee
+80 silly gunzTarPerm extractEntry templates/coffeescript/view.ejs
+81 silly gunzTarPerm extractEntry templates/requirejs/collection.js
+82 silly gunzTarPerm extractEntry templates/requirejs/main.js
+83 silly gunzTarPerm extractEntry templates/requirejs/model.js
+84 silly gunzTarPerm extractEntry templates/requirejs/router.js
+85 silly gunzTarPerm extractEntry templates/requirejs/view.js
+86 silly gunzTarPerm extractEntry templates/view.ejs
+87 silly gunzTarPerm extractEntry collection/index.js
+88 silly gunzTarPerm extractEntry view/index.js
+89 silly lockFile 64466c65-3063-0-25431290874257684-package tar:///var/folders/hb/vx_qdny15dsfgc45hpscx9sh0000gn/T/npm-6456-EPDCG38Y/1387150713063-0.25431290874257684/package
+90 silly lockFile 64466c65-3063-0-25431290874257684-package tar:///var/folders/hb/vx_qdny15dsfgc45hpscx9sh0000gn/T/npm-6456-EPDCG38Y/1387150713063-0.25431290874257684/package
+91 silly lockFile 8ff02352-3063-0-25431290874257684-tmp-tgz tar:///var/folders/hb/vx_qdny15dsfgc45hpscx9sh0000gn/T/npm-6456-EPDCG38Y/1387150713063-0.25431290874257684/tmp.tgz
+92 silly lockFile 8ff02352-3063-0-25431290874257684-tmp-tgz tar:///var/folders/hb/vx_qdny15dsfgc45hpscx9sh0000gn/T/npm-6456-EPDCG38Y/1387150713063-0.25431290874257684/tmp.tgz
+93 verbose tar pack [ '/Users/Mari/.npm/generator-backbone/0.2.2/package.tgz',
+93 verbose tar pack   '/var/folders/hb/vx_qdny15dsfgc45hpscx9sh0000gn/T/npm-6456-EPDCG38Y/1387150713063-0.25431290874257684/package' ]
+94 verbose tarball /Users/Mari/.npm/generator-backbone/0.2.2/package.tgz
+95 verbose folder /var/folders/hb/vx_qdny15dsfgc45hpscx9sh0000gn/T/npm-6456-EPDCG38Y/1387150713063-0.25431290874257684/package
+96 silly lockFile 64466c65-3063-0-25431290874257684-package tar:///var/folders/hb/vx_qdny15dsfgc45hpscx9sh0000gn/T/npm-6456-EPDCG38Y/1387150713063-0.25431290874257684/package
+97 verbose lock tar:///var/folders/hb/vx_qdny15dsfgc45hpscx9sh0000gn/T/npm-6456-EPDCG38Y/1387150713063-0.25431290874257684/package /Users/Mari/.npm/64466c65-3063-0-25431290874257684-package.lock
+98 silly lockFile 127b9922-rator-backbone-0-2-2-package-tgz tar:///Users/Mari/.npm/generator-backbone/0.2.2/package.tgz
+99 verbose lock tar:///Users/Mari/.npm/generator-backbone/0.2.2/package.tgz /Users/Mari/.npm/127b9922-rator-backbone-0-2-2-package-tgz.lock
+100 silly lockFile 64466c65-3063-0-25431290874257684-package tar:///var/folders/hb/vx_qdny15dsfgc45hpscx9sh0000gn/T/npm-6456-EPDCG38Y/1387150713063-0.25431290874257684/package
+101 silly lockFile 64466c65-3063-0-25431290874257684-package tar:///var/folders/hb/vx_qdny15dsfgc45hpscx9sh0000gn/T/npm-6456-EPDCG38Y/1387150713063-0.25431290874257684/package
+102 silly lockFile 127b9922-rator-backbone-0-2-2-package-tgz tar:///Users/Mari/.npm/generator-backbone/0.2.2/package.tgz
+103 silly lockFile 127b9922-rator-backbone-0-2-2-package-tgz tar:///Users/Mari/.npm/generator-backbone/0.2.2/package.tgz
+104 silly lockFile 1d3bc6ea-generator-backbone-0-2-2-package /Users/Mari/.npm/generator-backbone/0.2.2/package
+105 verbose lock /Users/Mari/.npm/generator-backbone/0.2.2/package /Users/Mari/.npm/1d3bc6ea-generator-backbone-0-2-2-package.lock
+106 silly lockFile 1d3bc6ea-generator-backbone-0-2-2-package /Users/Mari/.npm/generator-backbone/0.2.2/package
+107 silly lockFile 1d3bc6ea-generator-backbone-0-2-2-package /Users/Mari/.npm/generator-backbone/0.2.2/package
+108 verbose tar unpack /Users/Mari/.npm/generator-backbone/0.2.2/package.tgz
+109 silly lockFile 03e8f700-generator-backbone-0-2-2-package tar:///Users/Mari/.npm/generator-backbone/0.2.2/package
+110 verbose lock tar:///Users/Mari/.npm/generator-backbone/0.2.2/package /Users/Mari/.npm/03e8f700-generator-backbone-0-2-2-package.lock
+111 silly lockFile 127b9922-rator-backbone-0-2-2-package-tgz tar:///Users/Mari/.npm/generator-backbone/0.2.2/package.tgz
+112 verbose lock tar:///Users/Mari/.npm/generator-backbone/0.2.2/package.tgz /Users/Mari/.npm/127b9922-rator-backbone-0-2-2-package-tgz.lock
+113 silly gunzTarPerm modes [ '755', '644' ]
+114 silly gunzTarPerm extractEntry package.json
+115 silly gunzTarPerm extractEntry script-base.js
+116 silly gunzTarPerm extractEntry util.js
+117 silly gunzTarPerm extractEntry readme.md
+118 silly gunzTarPerm extractEntry model/index.js
+119 silly gunzTarPerm extractEntry CHANGELOG
+120 silly gunzTarPerm extractEntry all/index.js
+121 silly gunzTarPerm extractEntry router/index.js
+122 silly gunzTarPerm extractEntry app/index.js
+123 silly gunzTarPerm extractEntry app/templates/Gruntfile.js
+124 silly gunzTarPerm extractEntry app/templates/main.scss
+125 silly gunzTarPerm extractEntry app/templates/_package.json
+126 silly gunzTarPerm extractEntry app/templates/app/404.html
+127 silly gunzTarPerm extractEntry app/templates/app/favicon.ico
+128 silly gunzTarPerm extractEntry app/templates/app/htaccess
+129 silly gunzTarPerm extractEntry app/templates/app/robots.txt
+130 silly gunzTarPerm extractEntry app/templates/bowerrc
+131 silly gunzTarPerm extractEntry app/templates/_bower.json
+132 silly gunzTarPerm extractEntry app/templates/gitattributes
+133 silly gunzTarPerm extractEntry app/templates/gitignore
+134 silly gunzTarPerm extractEntry app/templates/index.html
+135 silly gunzTarPerm extractEntry app/templates/jshintrc
+136 silly gunzTarPerm extractEntry app/templates/editorconfig
+137 silly gunzTarPerm extractEntry templates/app.js
+138 silly gunzTarPerm extractEntry templates/collection.js
+139 silly gunzTarPerm extractEntry templates/model.js
+140 silly gunzTarPerm extractEntry templates/router.js
+141 silly gunzTarPerm extractEntry templates/view.js
+142 silly gunzTarPerm extractEntry templates/coffeescript/app.coffee
+143 silly gunzTarPerm extractEntry templates/coffeescript/collection.coffee
+144 silly gunzTarPerm extractEntry templates/coffeescript/model.coffee
+145 silly gunzTarPerm extractEntry templates/coffeescript/requirejs/collection.coffee
+146 silly gunzTarPerm extractEntry templates/coffeescript/requirejs/main.coffee
+147 silly gunzTarPerm extractEntry templates/coffeescript/requirejs/model.coffee
+148 silly gunzTarPerm extractEntry templates/coffeescript/requirejs/router.coffee
+149 silly gunzTarPerm extractEntry templates/coffeescript/requirejs/view.coffee
+150 silly gunzTarPerm extractEntry templates/coffeescript/router.coffee
+151 silly gunzTarPerm extractEntry templates/coffeescript/view.coffee
+152 silly gunzTarPerm extractEntry templates/coffeescript/view.ejs
+153 silly gunzTarPerm extractEntry templates/requirejs/collection.js
+154 silly gunzTarPerm extractEntry templates/requirejs/main.js
+155 silly gunzTarPerm extractEntry templates/requirejs/model.js
+156 silly gunzTarPerm extractEntry templates/requirejs/router.js
+157 silly gunzTarPerm extractEntry templates/requirejs/view.js
+158 silly gunzTarPerm extractEntry templates/view.ejs
+159 silly gunzTarPerm extractEntry collection/index.js
+160 silly gunzTarPerm extractEntry view/index.js
+161 silly lockFile 03e8f700-generator-backbone-0-2-2-package tar:///Users/Mari/.npm/generator-backbone/0.2.2/package
+162 silly lockFile 03e8f700-generator-backbone-0-2-2-package tar:///Users/Mari/.npm/generator-backbone/0.2.2/package
+163 silly lockFile 127b9922-rator-backbone-0-2-2-package-tgz tar:///Users/Mari/.npm/generator-backbone/0.2.2/package.tgz
+164 silly lockFile 127b9922-rator-backbone-0-2-2-package-tgz tar:///Users/Mari/.npm/generator-backbone/0.2.2/package.tgz
+165 verbose chmod /Users/Mari/.npm/generator-backbone/0.2.2/package.tgz 644
+166 verbose chown /Users/Mari/.npm/generator-backbone/0.2.2/package.tgz [ 501, 20 ]
+167 silly lockFile b870e03f-one-generator-backbone-0-2-2-tgz https://registry.npmjs.org/generator-backbone/-/generator-backbone-0.2.2.tgz
+168 silly lockFile b870e03f-one-generator-backbone-0-2-2-tgz https://registry.npmjs.org/generator-backbone/-/generator-backbone-0.2.2.tgz
+169 silly lockFile 8595b60c-generator-backbone-0-2-2 generator-backbone@0.2.2
+170 silly lockFile 8595b60c-generator-backbone-0-2-2 generator-backbone@0.2.2
+171 silly lockFile fd4cb93f-generator-backbone generator-backbone@
+172 silly lockFile fd4cb93f-generator-backbone generator-backbone@
+173 silly resolved [ { name: 'generator-backbone',
+173 silly resolved     version: '0.2.2',
+173 silly resolved     description: 'Yeoman generator for Backbone.js',
+173 silly resolved     keywords: [ 'yeoman-generator', 'scaffold', 'framework', 'mvc', 'backbone' ],
+173 silly resolved     homepage: 'https://github.com/yeoman/generator-backbone',
+173 silly resolved     bugs: { url: 'https://github.com/yeoman/generator-backbone/issues' },
+173 silly resolved     author: { name: 'Chrome Developer Relations' },
+173 silly resolved     main: 'app/index.js',
+173 silly resolved     repository:
+173 silly resolved      { type: 'git',
+173 silly resolved        url: 'git://github.com/yeoman/generator-backbone.git' },
+173 silly resolved     scripts: { test: 'mocha --reporter spec' },
+173 silly resolved     dependencies: { 'yeoman-generator': '~0.14.0' },
+173 silly resolved     peerDependencies:
+173 silly resolved      { 'generator-mocha': '~0.1.1',
+173 silly resolved        'generator-backbone-mocha': '~0.0.2',
+173 silly resolved        yo: '>=1.0.0-rc.1.1' },
+173 silly resolved     devDependencies: { mocha: '~1.12.0' },
+173 silly resolved     engines: { node: '>=0.8.0', npm: '>=1.2.10' },
+173 silly resolved     licenses: [ [Object] ],
+173 silly resolved     readme: '# Backbone.js generator [![Build Status](https://secure.travis-ci.org/yeoman/generator-backbone.png?branch=master)](http://travis-ci.org/yeoman/generator-backbone) [![Coverage Status](https://coveralls.io/repos/yeoman/generator-backbone/badge.png?branch=master)](https://coveralls.io/r/yeoman/generator-backbone?branch=master)\n\nMaintainer: [Revath S Kumar](https://github.com/revathskumar)\n\nA Backbone generator for Yeoman that provides a functional boilerplate Backbone app out of the box. You also get access to a number of sub-generators which can be used to easily create individual models, views, collections and so on.\n\nOptional RequireJS (AMD) support has recently been added as a prompt when using the generator on new projects.\n\n\n## Usage\n\nInstall: `npm install -g generator-backbone`\n\nMake a new directory and `cd` into it:\n```\nmkdir my-new-project && cd $_\n```\n\nRun `yo backbone`, optionally passing an app name:\n```\nyo backbone [app-name]\n```\n\n## Generators\n\nAvailable generators:\n\n- backbone:model\n- backbone:view\n- backbone:collection\n- backbone:router\n- backbone:all\n\n## Typical workflow\n\n```\nyo backbone # generates your application base and build workflow\nyo backbone:model blog\nyo backbone:collection blog\nyo backbone:router blog\nyo backbone:view blog\ngrunt server\n```\n\nAlso checkout this [NetTuts write-up](http://net.tutsplus.com/tutorials/javascript-ajax/building-apps-with-the-yeoman-workflow/) for a guide to building Backbone.js apps using this generator.\n\n\n## Options\n\n* `--appPath`\n\n  Generate scaffold into a custom directory.\n\n* `--coffee`\n\n  Generate scaffolds in CoffeeScript. By default check if project uses CoffeeScript.\n\n* `--requirejs`\n\n  Generate scaffolds using RequireJS (AMD) Loader. By default check if project uses RequireJS.\n\n* `--skip-install`\n\n  Skips the automatic execution of `bower` and `npm` after\n  scaffolding has finished.\n\n* `--test-framework=[framework]`\n\n  Defaults to `mocha`. Can be switched for\n  another supported testing framework like `jasmine`.\n\n* `--template-framework=[framework]`\n\n  Defaults to `lodash` templating with grunt-contrib-jst.\n  `handlebars` and `mustache` are also supported.\n\n## A note regarding JST templates and strict mode\n\nIf you use strict mode in your app and JST templates the default grunt-jst implementation will cause your app to error out as the templates will be precompiled using a \'with\' statement.\n\nThis can be addressed by changing the jst grunt task as follows:\n\n```\njst: {\n    compile: {\n        options:\n        {\n            templateSettings:\n            {\n                variable: \'data\'\n            }\n        },\n        files: {\n            \'.tmp/scripts/templates.js\': [\'<%= yeoman.app %>/scripts/templates/*.ejs\']\n        }\n    }\n},\n```\nA result of this change is that your template variable definitions must also be updated from `<%= templateVariable %>` to `<%= data.templateVariable %>`. More information on this can be found in the [Underscore documentation](http://underscorejs.org/#template).\n\n## Contribute\n\nSee the [contributing docs](https://github.com/yeoman/yeoman/blob/master/contributing.md)\n\nWhen submitting an issue, please follow the [guidelines](https://github.com/yeoman/yeoman/blob/master/contributing.md#issue-submission). Especially important is to make sure Yeoman is up-to-date, and providing the command or commands that cause the issue.\n\nWhen submitting a bugfix, write a test that exposes the bug and fails before applying your fix. Submit the test alongside the fix.\n\nWhen submitting a new feature, add tests that cover the feature.\n\n\n## License\n\n[BSD license](http://opensource.org/licenses/bsd-license.php)\n',
+173 silly resolved     readmeFilename: 'readme.md',
+173 silly resolved     _id: 'generator-backbone@0.2.2',
+173 silly resolved     dist: { shasum: '32e0291c83908c5ea24e822d50a3a5dd9bdaa51e' },
+173 silly resolved     _from: 'generator-backbone@',
+173 silly resolved     _resolved: 'https://registry.npmjs.org/generator-backbone/-/generator-backbone-0.2.2.tgz' } ]
+174 info install generator-backbone@0.2.2 into /usr/local/lib
+175 info installOne generator-backbone@0.2.2
+176 info /usr/local/lib/node_modules/generator-backbone unbuild
+177 verbose tar unpack /Users/Mari/.npm/generator-backbone/0.2.2/package.tgz
+178 silly lockFile 36d617ad--node-modules-generator-backbone tar:///usr/local/lib/node_modules/generator-backbone
+179 verbose lock tar:///usr/local/lib/node_modules/generator-backbone /Users/Mari/.npm/36d617ad--node-modules-generator-backbone.lock
+180 silly lockFile 127b9922-rator-backbone-0-2-2-package-tgz tar:///Users/Mari/.npm/generator-backbone/0.2.2/package.tgz
+181 verbose lock tar:///Users/Mari/.npm/generator-backbone/0.2.2/package.tgz /Users/Mari/.npm/127b9922-rator-backbone-0-2-2-package-tgz.lock
+182 silly gunzTarPerm modes [ '755', '644' ]
+183 error Error: EACCES, mkdir '/usr/local/lib/node_modules/generator-backbone'
+183 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/generator-backbone']
+183 error   errno: 3,
+183 error   code: 'EACCES',
+183 error   path: '/usr/local/lib/node_modules/generator-backbone',
+183 error   fstream_type: 'Directory',
+183 error   fstream_path: '/usr/local/lib/node_modules/generator-backbone',
+183 error   fstream_class: 'DirWriter',
+183 error   fstream_stack:
+183 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+183 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53',
+183 error      'Object.oncomplete (fs.js:107:15)' ] }
+184 error Please try running this command again as root/Administrator.
+185 error System Darwin 13.0.1
+186 error command "node" "/usr/local/bin/npm" "install" "-g" "generator-backbone"
+187 error cwd /Users/Mari/Documents/CodeNStuff/maribatilando.com
+188 error node -v v0.10.21
+189 error npm -v 1.3.11
+190 error path /usr/local/lib/node_modules/generator-backbone
+191 error fstream_path /usr/local/lib/node_modules/generator-backbone
+192 error fstream_type Directory
+193 error fstream_class DirWriter
+194 error code EACCES
+195 error errno 3
+196 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/generator-backbone'
+197 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+197 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53
+197 error fstream_stack Object.oncomplete (fs.js:107:15)
+198 verbose exit [ 3, true ]
