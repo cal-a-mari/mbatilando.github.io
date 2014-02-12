@@ -251,6 +251,7 @@ a.link-pdf {
 	}
 	#section-resume .item {
 		margin-bottom:10px;
+		overflow: auto;
 	}
 		#section-resume .item > div {
 			padding-top:15px;
@@ -269,7 +270,7 @@ a.link-pdf {
 			margin-top:0;
 		}
 		#section-resume .item div p.desc {
-			color:#aaa;
+			color:#666;
 			font:normal 13px/23px 'Open Sans', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 			margin-top:15px;
 		}
@@ -356,11 +357,11 @@ a.link-pdf {
 			color:#333;
 		}
 		#section-works .item p {
-			color:#aaa;
+			color:#666;
 			font:normal 12px/22px 'Open Sans', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		}
 		#section-works a:hover .item p {
-			color:#777;
+			color:#666;
 		}
 .reveal-modal-bg {
 	position:fixed;

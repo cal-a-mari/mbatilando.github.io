@@ -6,42 +6,22 @@
 	<title>Mari Batilando</title>
 	<meta name="description" content="Mari Batilando">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.8.0/build/cssreset/cssreset-min.css">
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+	<link href="http://yui.yahooapis.com/3.8.0/build/cssreset/cssreset-min.css" rel="stylesheet" type="text/css">
+	<link href='http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,300,400,700' rel='stylesheet' type='text/css'>
+
 	<link rel="stylesheet" href="css/grid.css">
 	<link rel="stylesheet" href="css/alpha_background.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/responsive_custom.css">
-	<link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/custom.css">
+	
 	<link rel="shortcut icon" href="images/favicon.ico">
 	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-	<link href='http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,300,400,700' rel='stylesheet' type='text/css'>
-	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
-	<script type="text/javascript">
-		function LoadGmaps() {
-			var myLatlng = new google.maps.LatLng(37.8717477,-122.2609626);
-			var myOptions = {
-				zoom: 16,
-				center: myLatlng,
-				disableDefaultUI: true,
-				navigationControl: false,
-
-				mapTypeControl: false,
-				streetViewControl: false,
-				mapTypeId: google.maps.MapTypeId.ROADMAP
-				}
-			var map = new google.maps.Map(document.getElementById("MyGmaps"), myOptions);
-			var marker = new google.maps.Marker({
-				position: myLatlng,
-				map: map,
-				title:"UC Berkeley"
-			});
-		}
-	</script>
 </head>
 
-<body data-spy="scroll" data-target="#section-topbar" data-offset="60" onload="LoadGmaps()" onunload="GUnload()">
+<body data-spy="scroll">
 	<div id="section-topbar">
 		<div id="topbar-inner">
 			<div class="container">
@@ -76,14 +56,16 @@
 			</div>
 		</div>
 
-		<div id="section-about">
+
+
+		<div data-scrollreveal="enter top move 80px over 0.66s" id="section-about">
 			<div class="container">
 				<div class="three columns">
 					<h3>About <i class="icon-user icon-large"></i> </h3> 
 				</div>
 
 				<div class="nine columns">
-					<p class="intro">Hi! My name's Mari and I'm a third year Computer Science undergraduate at UC Berkeley. Other than being a full-time student, I'm a front-end enthusiast. I love seeing what I make, and I love making great UI. In the past, I worked at Blackbaud and helped them develop software that helps non-profits raise money. This past summer, I worked at eBay Inc. and helped them develop the next-generation webapp for StubHub. Finally, next summer I will be working for Apple!
+					<p class="intro">Hi! My name's Mari, I'm a third year Computer Science undergraduate at Berkeley. Other than being a student, I'm a front-end enthusiast -- I love making simple and elegant user interface. I'm also big fan of client-side MVC frameworks like Backbone and Angular. Other than programming, a few of my other interests are eating exorbitant amounts of sweets, morning workouts at the RSF, and traveling to new places.
 					</p>
 				</div>
 
@@ -112,7 +94,7 @@
 		<div class="container">
 
 			
-			<div class="block">
+			<div data-scrollreveal="enter left move 80px over 0.66s" class="block">
 				<div class="three columns">
 					<h3>Education <i class="icon-file-text icon-large"></i></h3>
 				</div>
@@ -120,16 +102,16 @@
 				<div class="thirteen columns">
 					<div class="item">
 						<div class="nine columns alpha no-border">
-							<h4>Bachelor of Arts in Computer Science</h4>
+							<h4>Bachelor of Arts in Computer Science, Southeast Asian Studies Minor</h4>
 							<p>
 								<span class="italic font-color-black">University of California, Berkeley</span><br />
-								Current GPA: 3.46 <br/>
-								Coursework: User Interfaces, Computer Networking, Computer Architecture, Data Structures, Programming Methodology, Structure and Interpretation of Computer Programs, Digital Electronics, Discrete Mathematics, Probability Theory, Linear Algebra, Differential Equations
+								Current GPA: 3.50 <br/>
+								Coursework: User Interfaces, Computer Networking, Artifical Intelligence, Computer Security, Computer Architecture, Data Structures, Programming Methodology, Structure and Interpretation of Computer Programs, Working with Open Data
 							</p>
 						</div>
 						<div class="four columns omega">
 							<p class="date">
-								Fall 2011 - May 2015<br />
+								Fall 2011 - Spring 2014
 							</p>
 						</div>
 						
@@ -152,9 +134,51 @@
 				<div class="three columns">
 					<h3>Experience <i class="icon-suitcase icon-large"></i></h3>
 				</div>
-				
+
 				<div class="thirteen columns">
-					<div class="item">
+
+					<div data-scrollreveal="enter right move 80px over 0.66s" class="item">
+						<div class="nine columns alpha">
+							<h4>Project Manager</h4>
+							<p>
+								<span class="font-color-black italic">Code the Change</span><br />
+							</p>
+
+							<p class="desc">
+								Code the Change helps computer scientists use their skills to make social change an integral part of computer science culture.
+							</p>
+						</div>
+
+						<div class="four columns omega">
+							<p class="date">Spring 2014 - Present</p>
+						</div>
+
+						<div class="clear"></div>
+					</div>
+
+
+					<div data-scrollreveal="enter left move 80px over 0.66s" class="item">
+						<div class="nine columns alpha">
+							<h4>Software Developer Intern</h4>
+							<p>
+								<span class="font-color-black italic">SocialPlex</span><br />
+							</p>
+
+							<p class="desc">
+								Socialplex is an event discovery website/app that helps people explore exciting events and organizations around them. Simply follow the organizations you love and set your social life to autopilot. I am currently helping in the redesign of the SocialPlex web platform.
+							</p>
+						</div>
+						
+						<div class="four columns omega">
+							<p class="date">Spring 2014 - Present</p>
+						</div>
+						
+						<div class="clear"></div>
+					</div>
+					
+					<div class="clear"></div>
+
+					<div data-scrollreveal="enter right move 80px over 0.66s" class="item">
 						<div class="nine columns alpha">
 							<h4>Software Engineer Intern</h4>
 							<p>
@@ -175,7 +199,7 @@
 					
 					<div class="clear"></div>
 					
-					<div class="item">
+					<div data-scrollreveal="enter left move 80px over 0.66s" class="item">
 						<div class="nine columns alpha">
 							<h4>Software Engineer Intern</h4>
 							<p>
@@ -196,7 +220,9 @@
 					<div class="clear"></div>
 					
 
-					<div class="item">
+					<p data-scrollreveal="enter left and move 50px over 1.33s"> Foo </p>
+
+					<div data-scrollreveal="enter right move 80px over 0.66s" class="item">
 						<div class="nine columns alpha">
 							<h4>Quality Assurance Programmer</h4>
 							<p>
@@ -227,7 +253,7 @@
 				</div>
 				
 				<div class="thirteen columns">
-					<div class="item">
+					<div data-scrollreveal="enter right move 80px over 0.66s" class="item">
 						<div class="nine columns alpha">
 							<h4>Student Extern at Cisco Systems</h4>
 						</div>
@@ -239,7 +265,7 @@
 						</div>
 					</div>
 
-					<div class="item">
+					<div data-scrollreveal="enter right move 80px over 0.66s" class="item">
 						<div class="nine columns alpha">
 							<h4>Undergraduate Research Assistant</h4>
 						</div>
@@ -251,7 +277,7 @@
 						</div>
 					</div>
 
-					<div class="item">
+					<div data-scrollreveal="enter right move 80px over 0.66s" class="item">
 						<div class="nine columns alpha">
 							<h4>Webmaster at Pilipino Association of Scientists, Architects and Engineers</h4>
 						</div>
@@ -263,7 +289,7 @@
 						</div>
 					</div>
 					
-					<div class="item">
+					<div data-scrollreveal="enter right move 80px over 0.66s" class="item">
 						<div class="nine columns alpha">
 							<h4>Honor's List</h4>
 						</div>
@@ -275,7 +301,7 @@
 						</div>
 					</div>
 					
-					<div class="item">
+					<div data-scrollreveal="enter right move 80px over 0.66s" class="item">
 						<div class="nine columns alpha">
 							<h4>National Collegiate Taekwondo Champions</h4>
 						</div>
@@ -299,11 +325,12 @@
 					<h3>Skills <i class="icon-tasks icon-large"></i></h3>
 				</div>
 
-				<div id="skillsList" class="thirteen columns">
+				<div data-scrollreveal="enter left move 80px over 0.66s" id="skillsList" class="thirteen columns">
 					<ul>
-						<li><b>Languages</b>: JavaScript, Backbone, jQuery, Ajax, HTML5, CSS3, Sass, Python, Java, Rails, Android, C, MIPS<li>
-						<li><b>Tools</b>: WATIR Webdriver, Cucumber, Rspec, Chrome DevTools, Git, Heroku, Amazon EC2, Hadoop</li>
+						<li><b>Comfortable in</b>: JavaScript, Backbone, Angular, Node, Express, jQuery, Ajax, HTML5, CSS3, Sass, LESS, Mustache, Django, Python<li>
+						<li><b>Workflow Tools</b>: Chrome DevTools, Bower, Yeoman, Grunt, Git, Heroku, Amazon EC2, Hadoop</li>
 						<li><b>Methodologies/Design</b>: Single Page Applications, Responsive Mobile/Web Development, JavaScript Design Patterns, Agile Development, Human Computer Interaction, Networking Protocols</li>
+						<li><b>Exposure in</b>: Java, Android, C, MIPS<li>
 					</ul>
 				</div>
 			</div>
@@ -320,8 +347,48 @@
 			</div>
 
 			<div class="thirteen columns">
+
 				<a>
-					<div class="item">
+					<div data-scrollreveal="enter right move 80px over 0.66s" class="item">
+						<div class="eight columns alpha">
+							<img src="images/work_item04.jpg" alt="" />
+						</div>
+
+						<div class="five columns omega">
+							<div class="work-info">
+								<span class="category">Mobile/Web Application</span>
+								<h4><em>PokeMari</em></h4>
+
+								<p>A quick Pokedex app that lets you view your favorite pokemon's information. Built using Angular, Yeoman, Bower, Grunt and Express.js. Live demo <a target="_blank" href="http://pokemari.herokuapp.com">here</a>. </p>
+							</div>
+						</div>
+
+						<div class="clear"></div>
+					</div>
+				</a>
+
+				<a>
+					<div data-scrollreveal="enter left move 80px over 0.66s" class="item">
+						<div class="eight columns alpha">
+							<img src="images/work_item05.jpg" alt="" />
+						</div>
+
+						<div class="five columns omega">
+							<div class="work-info">
+								<span class="category">PhoneGap Application</span>
+								<h4>Giving Goods</h4>
+
+								<p>Giving Goods is a mobile application that enables donors to quickly and easily discover donation drives from local community organizers and to donate their excess materials to organizations that are in need. The application streamlines donation drive discovery, scheduling donation pick-ups and the communication between donors and organizers.</p>
+							</div>
+						</div>
+
+						<div class="clear"></div>
+					</div>
+				</a>
+
+
+				<a>
+					<div data-scrollreveal="enter right move 80px over 0.66s" class="item">
 						<div class="eight columns alpha">
 							<img src="images/work_item01.jpg" alt="" />
 						</div>
@@ -340,7 +407,7 @@
 				</a>
 
 				<a>
-					<div class="item">
+					<div data-scrollreveal="enter left move 80px over 0.66s" class="item">
 						<div class="eight columns alpha">
 							<img src="images/work_item02.jpg" alt="" />
 						</div>
@@ -360,7 +427,7 @@
 
 
 				<a>
-					<div class="item last">
+					<div data-scrollreveal="enter right move 80px over 0.66s" class="item last">
 						<div class="eight columns alpha">
 							<img src="images/work_item03.jpg" alt="" />
 						</div>
@@ -401,11 +468,7 @@
 
 	<script src="http://code.jquery.com/jquery-1.9.0.js"></script>
 	<script src="http://code.jquery.com/ui/1.10.0/jquery-ui.js"></script>
-	<script src="js/maribatilando.com.min.js"></script>
-	<!-- <script src="js/bootstrap-scrollspy.js"></script>
-	// <script src="js/jquery.ajaxContactForm.js"></script>
-	// <script src="js/jquery.foundation.reveal.js"></script>
-	// <script src="js/jquery.custom.js"></script>
-	// <script src="js/jquery.custom.noIE.js"></script> -->
+	<script src="js/jquery.custom.js"></script>
+	<script src="js/scrollReveal.js"></script>
 </body>
 </html>

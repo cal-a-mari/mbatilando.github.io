@@ -18,11 +18,6 @@ $(document).ready(function(){
 	});
 
 
-	// ScrollSpy automatically updates nav targets based on scroll position
-	// http://twitter.github.com/bootstrap/javascript.html#scrollspy
-	$('#nav').scrollspy();
-
-
 	// Wrap text in h3 with a span element to underline
 	//$('h3, h4').wrapInner('<span class="underline" />');
 
