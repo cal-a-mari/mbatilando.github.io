@@ -38,7 +38,7 @@ social:
 #    share_title: ?t=
 #    share_link: "&amp;u="
 
-  - icon:	github
+  - icon:	github-alt
     url:	https://github.com/mbatilando
     desc:	Check out my side projects
     share_url:
@@ -48,6 +48,13 @@ social:
   - icon: google-plus
     url:	https://plus.google.com/+MariBatilando/posts
     desc: Add me on google+
+    share_url:
+    share_title:
+    share_link:
+
+  - icon: linkedin
+    url:	https://www.linkedin.com/in/maribatilando
+    desc: Connect with me on LinkedIn
     share_url:
     share_title:
     share_link:
