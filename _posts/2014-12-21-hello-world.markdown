@@ -4,36 +4,7 @@ title:  "Hello World!"
 date:   2014-12-21 12:31:00
 categories: personal
 tags: hello world
-image: /assets/article_images/2014-11-30-mediator_features/night-track.JPG
+image: /assets/article_images/2014-12-21-hello-world/bay-bridge-sunrise.jpg
 ---
-#Mediator Formats and CSS features
-
-Examples for different formats and css features
-
-#Header Formats
-#Header1
-##Header2
-
-#Blockquotes
->Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
-
-#Lists
-##orderd lists
-1. one
-2. two
-3. three
-
-##unorderd lists
-- Apple
-- Banana
-- Plum
-
-#Links
-This is an [example link](http://example.com/ "With a Title").
-
-#Combinations
->Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
->
-> - Apple
-> - Banana
-> - Plum
+#Hello World!
+Hey there! I just revamped my personal website and turned it into a blog since I figured it would force me to write. I'll be posting anything from JavaScript design patterns to learning Swift on iOS, so feel free to visit my website once in a while!
