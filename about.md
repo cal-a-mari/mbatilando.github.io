@@ -3,15 +3,6 @@ layout: page
 title: About
 permalink: /about/
 ---
+I'm a young software engineer from UC Berkeley. My skills are primarily in full-stack web development, however I've recently started learning Swift on iOS.
 
-A medium inspired Jekyll blog theme. The basic idea came from the Ghost theme 
-[Readium 2.0](http://www.svenread.com/readium-ghost-theme/). I use mediator on my own blog [The Base](blog.base68.com).
-
-You can **download** the theme here:
-[https://github.com/dirkfabisch/mediator](https://github.com/dirkfabisch/mediator) 
-
-You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
-
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+Other than coding, I'm an avid runner and I love to exercise. My current goal is to run my first triathlon! I'm also a maniacal Shiba Inu lover.
