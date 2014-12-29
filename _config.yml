@@ -3,11 +3,11 @@ markdown: redcarpet
 highlighter: pygments
 
 # Site settings
-title: "CodeNStuff"
+title: "Quirks Mode"
 description: > # this means to ignore newlines until "email:"
-   I like to do things and stuff
+   For all my personal quirks
 
-email: a-mail@mail.mail
+email: mari.batilando@gmail.com
 #blog logo
 logo: "/assets/images/df_logo.jpg"
 # blog cover
