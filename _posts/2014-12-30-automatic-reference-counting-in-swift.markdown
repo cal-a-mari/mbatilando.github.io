@@ -56,7 +56,7 @@ If we instead had 3 variables pointing to an instance, Swift will not deallocate
 	shiba3 = nil // Deallocating: Shibi
 
 ###Strong Reference Cycles
-Pretty simple, however if two instances reference each other, a strong reference cycle occurs and both instances will not be deallocated even if we remove the references from the variables (leading to memory leaks):
+Pretty simple; however if two instances reference each other, a strong reference cycle occurs and both instances will not be deallocated even if we remove the references from the variables (leading to memory leaks):
 
 
 	class Animal {
@@ -102,10 +102,12 @@ Pretty simple, however if two instances reference each other, a strong reference
 Since I made a reference to the Owner instance from the Animal instance I created (and vice-versa) there are still strong references to both instances so Swift will not deallocate memory for both of them even after removing the variable references.
 
 ###Weak References
-Enter weak references-- one solution for resolving strong reference cycles between instances. Weak references (unlike unowned references which I'll talk about later) are allowed to take on the value nil and allow you to reference another instance without keeping a strong hold on it, therefore disallowing a strong reference cycle. We use the **'weak'** keyword to declare a variable or property as a weak reference:
+Enter weak references-- one solution for resolving strong reference cycles between instances. Weak references (unlike unowned references which I'll talk about later) are allowed to take on the value nil and allow you to reference another instance without keeping a strong hold on it, therefore disallowing a strong reference cycle:
 
 	class Animal {
 		let name: String
+		// We use the weak keyword to declare a variable
+		// or property as a weak reference
 		weak var owner: Owner? // An animal may or may not have an owner
 
 		init (name: String) {
@@ -150,6 +152,8 @@ Another solution to strong reference cycles is using unowned references. Unlike 
 
 	class Animal {
 		let name: String
+		// We use the unowned keyword to declare a variable
+		// or property as an unowned reference
 		unowned let owner: Owner // An animal must have an owner
 
 		init (name: String, owner: Owner) {
