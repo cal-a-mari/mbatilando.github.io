@@ -11,9 +11,9 @@ One of the most awesome things about Swift is that you don't have to manually ma
 application's memory. In this post I'll quickly talk about how Swift uses Automatic Reference Counting (ARC) to manage your app's memory.
 
 ###Strong References
-To make sure that Swift can safely deallocate memory of a certain instance, it counts how many strong references there are pointing to that instance. Strong references to an instance can be: a property, constant or variable.
+To make sure that Swift can safely deallocate memory of a certain instance, it counts how many strong references there are pointing to that instance. Strong references to an instance can be: a **property**, **constant** or **variable**.
 
-Let's say you have a class called **Animal**
+Let's say you have a class called **Animal**:
 
 	class Animal {
 		let name: String
