@@ -3,11 +3,12 @@ markdown: redcarpet
 highlighter: pygments
 
 # Site settings
-title: "Mari Batilando - Quirks Mode"
+title: "Quirks Mode"
 description: > # this means to ignore newlines until "email:"
    Mari Batilando's personal quirks, structured/unstructured thoughts about
    things like programming and technology.
-
+short_description: >
+  For all my personal quirks
 email: mari.batilando@gmail.com
 #blog logo
 logo: "/assets/images/df_logo.jpg"
