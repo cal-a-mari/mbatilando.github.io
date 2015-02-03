@@ -67,7 +67,7 @@ If we wanted to iterate through our *animals* array and get a count of each inst
 ###Downcasting
 Now let's say we wanted to print the corresponding property depending on the instance we're currently on. So if the element we're currently on is of type Dog then we'd want to print its *name* and its *owner* property. If we're currently on an instance of a Shark then we'd want to print its *prey*.
 
-To do this, we'll use the ***as*** operator to ***downcast*** each element. Downcasting is essentially an attempt to treat an instance as an instance of one of its subclass. Since Swift treats the elements in our animal array as type Animal, we'll be have to determine whether the element is actually a Dog or a Shark. Note that downcasting can fail so we use the ***as?*** operator as an optional operator that returns nil if it fails.
+To do this, we'll use the ***as*** operator to ***downcast*** each element. Downcasting is essentially an attempt to treat an instance as an instance of one of its subclass. Since Swift treats the elements in our animal array as type Animal, we'll have to determine whether the element is actually a Dog or a Shark. Note that downcasting can fail so we use the ***as?*** operator as an optional operator that returns nil if it fails.
 
 	for animal in animals {
 		if let dog = animal as? Dog {
