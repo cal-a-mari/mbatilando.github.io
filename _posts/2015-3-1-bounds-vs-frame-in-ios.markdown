@@ -20,3 +20,8 @@ containerView.frame.origin.x += 50 // Move the container view to the right by 50
 
 ###bounds
 You can think of the bounds of a view as a way to tell the view where to start drawing itself. As a result of manipulating the view's bounds, you're moving where the contents within it will be displayed. Note that changing a view's bounds **DOES NOT** change the location the view itself in the super view.
+
+
+```
+containerView.bounds.origin.x += 50 // Start drawing my contents at (x + 50, y)
+```
