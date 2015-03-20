@@ -11,6 +11,7 @@ One neat feature in Swift is its lazy instantiation using its ***lazy*** keyword
 
 
 You can use this feature by simply declaring a property as ***lazy*** and using a closure:
+
 ```
 lazy var magicalNumber: Int = {
     // stuff that only gets computed when program asks for it    
@@ -18,6 +19,7 @@ lazy var magicalNumber: Int = {
 ```
 
 Another way you can do it is by using an instance method:
+
 ```
 lazy var magicalNumber: Int = self.computationallyIntensiveMathHackz()
 func computationallyIntensiveMathHackz() -> Int {
@@ -28,6 +30,7 @@ func computationallyIntensiveMathHackz() -> Int {
 ```
 
 You can also use a class method:
+
 ```
 class MyClass {
     lazy var magicalNumber: MyClass.computationallyIntensiveMathHackz()
@@ -40,6 +43,7 @@ class MyClass {
 ```
 
 Here's an example of how lazy properties work:
+
 ```
 class Dog {
     var name: String
