@@ -1,8 +1,10 @@
 ---
 layout: page
-title: About
+title: About Me
 permalink: /about/
+image: /assets/images/about-me.jpg
 ---
+### About Me
 I'm a young software engineer who recently graduated from UC Berkeley. I started my programming career during college by doing front-end web development. Programming in JavaSript gradually expanded onto the server-side and I'm capable of programming the full-stack.
 
 I've recently changed my interest and decided to dive into native iOS development in Objective-C and Swift. Right now, I'm focusing on learning everything I can about mobile development.
