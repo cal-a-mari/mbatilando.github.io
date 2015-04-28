@@ -8,7 +8,7 @@ image: /assets/images/cover.jpg
 ---
 
 #Types of Data Synchronization
-One of the first things I learned while doing iOS development at my current job right now is the need for synchronizing your data between multiple platforms and devices. Data synchronization is not isolated to just mobile devices-- it's a problem for every platform. And, since I'm a total noob and don't know anything about data synchronization I decided to write this post as an abridged version of [this](https://github.com/drewmccormack/ensembles) awesome article on objc.io
+Data synchronization is a problem for every platform and young programmers like me often forget about this problem. Since I'm a total noob in this area, I decided to read more about it and stumbled upon [this](https://github.com/drewmccormack/ensembles) awesome objc.io article. I've made an abridged version of the article if you want the TLDR version.
 
 ![Synchronous Peer-to-Peer]({{ site.url }}/assets/images/data-synchronization/sp2p.png)
 ###Synchronous Peer-to-Peer
