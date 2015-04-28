@@ -8,7 +8,7 @@ image: /assets/images/cover.jpg
 ---
 
 #Types of Data Synchronization
-Data synchronization is a problem for every platform and young programmers like me often forget about this problem. Since I'm a total noob in this area, I decided to read more about it and stumbled upon [this](https://github.com/drewmccormack/ensembles) awesome objc.io article. I've made an abridged version of the article if you want the TLDR version.
+Data synchronization is a problem for every platform and young programmers like me often forget about this problem. Since I'm a total noob in this area, I decided to read more about it and stumbled upon [this](http://www.objc.io/issue-10/data-synchronization.html) awesome objc.io article. I've made an abridged version of the article if you want the TLDR version.
 
 ![Synchronous Peer-to-Peer]({{ site.url }}/assets/images/data-synchronization/sp2p.png)
 ###Synchronous Peer-to-Peer
